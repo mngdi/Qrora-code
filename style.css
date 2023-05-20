@@ -149,10 +149,11 @@ input {
   .code {
     /* Mobile styles */
     flex-direction: column;
-    padding-right: 10rem;
+    width: 100%;
+    padding-right: 5rem;
   }
   
-  .p {
+  .paragraph {
     display: none;
   }
 
