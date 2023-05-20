@@ -159,8 +159,8 @@ input {
     width: 100%;
   }
   
-  .logo {
-    width: 80%
-    height: auto;
+  .homepageimg {
+    display: block;
+    width: 80%;
   }
 }
