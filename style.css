@@ -141,12 +141,15 @@ input {
     margin: 16px 0;
     width: 100%;
   }
+  
+  body {
+    display: block;
+  }
 
   .code {
     display: block;
     flex-direction: row;
-    top: 30%;
-    left: 5%;
+    padding: 0 2rem
     margin-left: auto;
   }
 
