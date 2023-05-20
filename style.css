@@ -156,6 +156,10 @@ input {
     margin: 2rem 2rem 5.5rem 0;
     width: 100%;
   }
+  
+  .code p {
+    display: none;
+  }
 
   .homepageimg {
     /* Mobile styles */
