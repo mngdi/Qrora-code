@@ -192,6 +192,7 @@ input {
   .code {
     /* Mobile styles */
     flex-direction: column;
+    justify-content: center
   }
 
   .homepageimg {
