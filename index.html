@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qrora Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.PNG" alt="" class="logo">
+    </header>
+
+    <div class="hd">
+        <h1>QR Code Generator</h1>
+    </div>
+
+    <div class="code">
+        <p>
+            QR Codes allow smartphone users to access your website, social media account or any link
+            easily.
+            <br>
+            <br>
+            Streamline your marketing efforts and enhance user engagement with our efficient QR code generator. 
+            Start creating your QR codes today!
+            <br>
+            <br>
+            Simply input the URL to generate a QR Code in seconds and download.
+            <img class="homepageimg" src="images/qrc.jpg" alt="" srcset="">
+        </p>
+        <form action="#" id="frm">
+
+            <div class="form-group">
+                <label for="url"><h2>Enter URL:</h2></label>
+                <input type="url" id="url" placeholder="Enter URL" required>
+            </div>
+
+            <div class="form-group">
+                <label for="size"><h3>Select Your Size</h3></label>
+                <select id="size">
+                    <option value="100">100x100</option>
+                    <option value="200">200x200</option>
+                    <option value="300" selected>300x300</option>
+                    <option value="400">400x400</option>
+                    <option value="500">500x500</option>
+                    <option value="600">600x600</option>
+                    <option value="700">700x700</option>
+                </select>
+            </div>
+            <div class="form-single-group">
+                <label for="colorDark">Primary Color</label>
+                <input type="color" id="colorDark" value="#000000">
+            </div>
+            <div class="form-single-group">
+                <label for="colorLight">Secondary Color</label>
+                <input type="color" id="colorLight" value="#ffffff">
+                <button type="submit" class="btn">Generate QR Code</button>
+                <a href="#" class="btn" id="btn-save" download>Download QR Code</a>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="output">
+        <div id="qrcode">
+            <img src="images/joes.png">
+        </div>
+        <div id="loading">
+            <div id="spinner"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>&copy; 2023 Qrora Code by <a href="https://stalwart-douhua-b10b84.netlify.app/">Gideon Adegbite</a></h3>
+     </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
