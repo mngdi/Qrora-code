@@ -1,4 +1,4 @@
-# Clone
-Clone using html, css and bootstrap 5
-Vulkar AUto player by Gideon Adegbite
-© Copyright 2023 Clone. All rights reserved
+# Qrora Code
+Qrora Code using html, css and javascript
+Qrora Code by Gideon Adegbite
+© Copyright 2023 Qrora Code. All rights reserved
