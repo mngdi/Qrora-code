@@ -132,6 +132,31 @@ input {
   }
 }
 
+@media only screen and (device-width: 750px) and (device-height: 1334px) {
+  /* Your CSS styles for iPhone 7 */
+  .hd {
+    display: block;
+    justify-content: center;
+    padding: 0 1rem;
+    margin: 16px 0;
+    width: 100%;
+  }
+
+  .code {
+    display: block;
+    flex-direction: row;
+    top: 30%;
+    left: 5%;
+    margin-left: auto;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+
+
 @media(max-width: 414px) {
   .hd {
     display: block;
