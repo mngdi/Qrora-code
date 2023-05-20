@@ -132,49 +132,6 @@ input {
   }
 }
 
-/*@media only screen and (device-width: 750px) and (device-height: 1334px) {
-  /* Your CSS styles for iPhone 7 */
-  .hd {
-    display: block;
-    justify-content: center;
-    padding: 0 1rem;
-    margin: 16px 0;
-    width: 100%;
-  }
-  
-  body {
-    display: block;
-    justify-content: center;
-  }
-  
-  .output {
-    display: block;
-    justify-content: center;
-  }
-
-  .code {
-    display: block;
-    justify-content: center;
-    padding: 0 2rem
-    margin-left: auto;
-  }
-
-  .btn {
-    font-size: 1.2rem;
-    width: 100%;
-  }
-  
-  .homepageimg {
-    display: block;
-    justify-content: center;
-    width: 80%;
-  }
-  
-  p {
-    display: none;
-  }
-}*/
-
 @media (max-width: 767px) {
   /* Header */
   header {
@@ -192,7 +149,7 @@ input {
   .code {
     /* Mobile styles */
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
   }
 
   .homepageimg {
