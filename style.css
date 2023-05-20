@@ -151,7 +151,7 @@ input {
   .hd {
     text-align: center;
     justify-content: content;
-    margin: auto;
+    margin: 1rem;
   }
 
   /* Main content */
