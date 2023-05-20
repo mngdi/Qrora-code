@@ -166,6 +166,10 @@ input {
   .code p {
     display: none;
   }
+  
+  #btn-save {
+    width: 100%
+  }
 
   .homepageimg {
     /* Mobile styles */
