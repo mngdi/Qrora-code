@@ -147,6 +147,11 @@ input {
     width: 15rem;
     height: 10rem;
   }
+  
+  .hd {
+    text-align: center;
+    justify-content: content;
+  }
 
   /* Main content */
   .code {
