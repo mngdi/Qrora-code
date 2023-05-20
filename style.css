@@ -152,6 +152,9 @@ input {
   .code {
     /* Mobile styles */
     flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+    width: 100%;
   }
 
   .homepageimg {
