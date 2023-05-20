@@ -132,6 +132,9 @@ input {
   }
 }
 
+/* Media queries for mobile screens */
+
+/* For screens smaller than 768px (typical smartphones in portrait mode) */
 @media (max-width: 767px) {
   /* Header */
   header {
@@ -149,12 +152,6 @@ input {
   .code {
     /* Mobile styles */
     flex-direction: column;
-    width: 100%;
-    padding-right: 5rem;
-  }
-  
-  .paragraph {
-    display: none;
   }
 
   .homepageimg {
