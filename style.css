@@ -149,6 +149,7 @@ input {
   .code {
     /* Mobile styles */
     flex-direction: column;
+    margin-left: 10rem;
   }
 
   .homepageimg {
